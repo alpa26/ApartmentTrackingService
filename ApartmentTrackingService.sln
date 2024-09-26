@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApartmentTrackingService", "ApartmentTrackingService\ApartmentTrackingService.csproj", "{C77A5B43-2A07-4CB2-8DBF-809DEBD40FAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C77A5B43-2A07-4CB2-8DBF-809DEBD40FAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C77A5B43-2A07-4CB2-8DBF-809DEBD40FAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C77A5B43-2A07-4CB2-8DBF-809DEBD40FAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C77A5B43-2A07-4CB2-8DBF-809DEBD40FAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {860627E6-FC83-4837-A1B3-116259111E7A}
+	EndGlobalSection
+EndGlobal
