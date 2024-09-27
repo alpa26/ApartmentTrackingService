@@ -26,7 +26,7 @@ namespace ApartmentTrackingService.Controllers
             _userRepository = userRepository;
         }
 
-        [HttpPost]
+        [HttpPost("subscribe")]
         public async Task<IActionResult> SubscribeOnApartment(string url, string mail)
         {
             Regex emailRegex = new Regex(@"^[a-zA-Z0-9.]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$");
@@ -76,7 +76,7 @@ namespace ApartmentTrackingService.Controllers
             }
         }
 
-        [HttpGet]
+        [HttpGet("getbymail")]
         public async Task<Dictionary<string, int>> GetApartment(string mail)
         {
             var result = new Dictionary<string, int>();
